@@ -25,16 +25,52 @@
                                     <constraint firstAttribute="height" constant="216" id="3od-g8-Fhg"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nepali Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOG-Py-TQH">
+                                <rect key="frame" x="16" y="70" width="343" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfX-1A-ODP">
+                                <rect key="frame" x="16" y="178" width="343" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In Nepali:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lt-zO-6M4">
+                                <rect key="frame" x="16" y="41" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In English:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBy-KM-CC7">
+                                <rect key="frame" x="16" y="127" width="78" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="9Lt-zO-6M4" firstAttribute="leading" secondItem="87l-aP-dJT" secondAttribute="leading" constant="16" id="5Pw-Cn-uBw"/>
+                            <constraint firstItem="rfX-1A-ODP" firstAttribute="top" secondItem="dBy-KM-CC7" secondAttribute="bottom" constant="30" id="9C1-xy-Bgu"/>
+                            <constraint firstItem="rfX-1A-ODP" firstAttribute="leading" secondItem="87l-aP-dJT" secondAttribute="leading" constant="16" id="UA7-Vo-CcO"/>
+                            <constraint firstItem="9Lt-zO-6M4" firstAttribute="top" secondItem="87l-aP-dJT" secondAttribute="top" constant="21" id="X32-sg-5fu"/>
+                            <constraint firstItem="cOG-Py-TQH" firstAttribute="leading" secondItem="87l-aP-dJT" secondAttribute="leading" constant="16" id="ZRs-Yp-bOw"/>
                             <constraint firstItem="87l-aP-dJT" firstAttribute="bottom" secondItem="STT-VR-Rs1" secondAttribute="bottom" id="bHc-yq-gab"/>
+                            <constraint firstItem="cOG-Py-TQH" firstAttribute="top" secondItem="9Lt-zO-6M4" secondAttribute="bottom" constant="8" id="eti-iR-gZu"/>
                             <constraint firstItem="87l-aP-dJT" firstAttribute="trailing" secondItem="STT-VR-Rs1" secondAttribute="trailing" id="joA-Vq-sOd"/>
                             <constraint firstItem="STT-VR-Rs1" firstAttribute="leading" secondItem="87l-aP-dJT" secondAttribute="leading" id="l00-7l-JNM"/>
+                            <constraint firstItem="dBy-KM-CC7" firstAttribute="top" secondItem="cOG-Py-TQH" secondAttribute="bottom" constant="30" id="nMN-2H-gNn"/>
+                            <constraint firstItem="87l-aP-dJT" firstAttribute="trailing" secondItem="cOG-Py-TQH" secondAttribute="trailing" constant="16" id="oxX-eG-vTt"/>
+                            <constraint firstItem="87l-aP-dJT" firstAttribute="trailing" secondItem="rfX-1A-ODP" secondAttribute="trailing" constant="16" id="qy8-Y6-AoP"/>
+                            <constraint firstItem="dBy-KM-CC7" firstAttribute="leading" secondItem="87l-aP-dJT" secondAttribute="leading" constant="16" id="ugc-bl-Byp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="87l-aP-dJT"/>
                     </view>
                     <connections>
+                        <outlet property="englishDate" destination="rfX-1A-ODP" id="G4r-bs-KSZ"/>
+                        <outlet property="nepaliDate" destination="cOG-Py-TQH" id="MWv-tn-xSI"/>
                         <outlet property="nepaliDatePicker" destination="STT-VR-Rs1" id="bJ5-xF-7Ls"/>
                     </connections>
                 </viewController>

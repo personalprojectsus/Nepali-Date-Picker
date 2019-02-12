@@ -89,9 +89,7 @@ public class NepaliDatePicker: UIView {
         self.selectedYear = Array(DateDataSource.getSource().keys).sorted()[self.nsnCalendarPickerView.selectedRow(inComponent: 0)]
         self.selectedMonth = self.nsnCalendarPickerView.selectedRow(inComponent: 1)
         self.selectedDay = Array(1...32)[self.nsnCalendarPickerView.selectedRow(inComponent: 2)]
-        print("\(selectedYear!)-\(selectedMonth!)-\(selectedDay!)")
-        print("running")
-
+        print("\(selectedYear!)-\(selectedMonth!)-\(selectedDay!)")        
     }
 }
 extension NepaliDatePicker: UIPickerViewDelegate, UIPickerViewDataSource {

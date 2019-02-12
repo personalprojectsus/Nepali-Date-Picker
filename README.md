@@ -22,7 +22,7 @@ pod 'NepaliDatePicker'
 
 ## Author
 
-shreejwalGiri, nabs107@gmail.com
+Nabin Shrestha, nabs107@gmail.com
 
 ## License
 

@@ -10,13 +10,22 @@ import UIKit
 import NepaliDatePicker
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var nepaliDatePicker: UIView!
+    @IBOutlet weak var nepaliDate: UILabel!
+    @IBOutlet weak var englishDate: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.setNepaliDatePickerView()
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        
+        self.nepaliDate.text = DateConverter().convertFromEnglishToNepali(date: DateUtils.getCurrentDateOnlyInString() + " +0000")
+        
+        self.englishDate.text = DateUtils.getCurrentDateOnlyInString()
         
     }
     
@@ -28,12 +37,11 @@ class ViewController: UIViewController {
 }
 extension ViewController: NepaliDatePickerDelegate {
     func pickerView(pickerView: UIView, selectedNepaliDate: String?) {
-        
+        self.nepaliDate.text = selectedNepaliDate
     }
     
     func pickerView(pickerView: UIView, correspondingEnglishDate: String?) {
-        
+        self.englishDate.text = correspondingEnglishDate
     }
-    
     
 }
