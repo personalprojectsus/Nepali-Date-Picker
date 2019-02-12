@@ -1,7 +1,7 @@
 {
   "name": "NepaliDatePicker",
-  "version": "0.1.0",
-  "summary": "A short description of NepaliDatePicker.",
+  "version": "1.0.0",
+  "summary": "NepaliDatePicker is the pickerview that allows users to select date in B.S.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/shreejwalGiri/NepaliDatePicker",
   "license": {
@@ -9,14 +9,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "shreejwalGiri": "nabs107@gmail.com"
+    "Nabin Shrestha": "nabs107@gmail.com"
   },
   "source": {
     "git": "https://github.com/shreejwalGiri/NepaliDatePicker.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "NepaliDatePicker/Classes/**/*"
+  "source_files": "NepaliDatePicker/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "swift_version": "4.2"
 }

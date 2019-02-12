@@ -1,0 +1,6 @@
+framework module Pods_NepaliDatePicker {
+  umbrella header "Pods-NepaliDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

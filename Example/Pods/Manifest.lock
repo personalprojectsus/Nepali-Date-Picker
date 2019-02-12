@@ -1,5 +1,5 @@
 PODS:
-  - NepaliDatePicker (0.1.0)
+  - NepaliDatePicker (1.0.0)
 
 DEPENDENCIES:
   - NepaliDatePicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NepaliDatePicker: 611cca6751e2ce08c1ac4a17ed686ff08ea3bed6
+  NepaliDatePicker: 92a62d81099180b008849287ae91c37e183c9275
 
 PODFILE CHECKSUM: 6d70c7815114aed85479c8800b3286f255d052fb
 
