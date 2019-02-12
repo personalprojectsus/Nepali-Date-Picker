@@ -1,0 +1,22 @@
+{
+  "name": "NepaliDatePicker",
+  "version": "0.1.0",
+  "summary": "A short description of NepaliDatePicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shreejwalGiri/NepaliDatePicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shreejwalGiri": "nabs107@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shreejwalGiri/NepaliDatePicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NepaliDatePicker/Classes/**/*"
+}

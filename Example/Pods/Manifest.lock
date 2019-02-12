@@ -1,0 +1,16 @@
+PODS:
+  - NepaliDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - NepaliDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  NepaliDatePicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NepaliDatePicker: 611cca6751e2ce08c1ac4a17ed686ff08ea3bed6
+
+PODFILE CHECKSUM: 6d70c7815114aed85479c8800b3286f255d052fb
+
+COCOAPODS: 1.5.3

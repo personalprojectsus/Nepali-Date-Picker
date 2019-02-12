@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NepaliDatePicker'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NepaliDatePicker.'
+  s.version          = '1.0.0'
+  s.summary          = 'NepaliDatePicker is the pickerview that allows users to select date in B.S.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/shreejwalGiri/NepaliDatePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shreejwalGiri' => 'nabs107@gmail.com' }
+  s.author           = { 'Nabin Shrestha' => 'nabs107@gmail.com' }
   s.source           = { :git => 'https://github.com/shreejwalGiri/NepaliDatePicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'NepaliDatePicker/Classes/**/*'
   
@@ -37,6 +37,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = "4.2"
 end

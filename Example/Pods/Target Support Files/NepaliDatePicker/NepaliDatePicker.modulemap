@@ -1,0 +1,6 @@
+framework module NepaliDatePicker {
+  umbrella header "NepaliDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
