@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NepaliDatePicker_Example' do
+  pod 'NepaliDatePicker', :path => '../'
+
+  target 'NepaliDatePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
