@@ -1,6 +1,5 @@
 # NepaliDatePicker
 
-[![CI Status](https://img.shields.io/travis/shreejwalGiri/NepaliDatePicker.svg?style=flat)](https://travis-ci.org/shreejwalGiri/NepaliDatePicker)
 [![Version](https://img.shields.io/cocoapods/v/NepaliDatePicker.svg?style=flat)](https://cocoapods.org/pods/NepaliDatePicker)
 [![License](https://img.shields.io/cocoapods/l/NepaliDatePicker.svg?style=flat)](https://cocoapods.org/pods/NepaliDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/NepaliDatePicker.svg?style=flat)](https://cocoapods.org/pods/NepaliDatePicker)
