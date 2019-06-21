@@ -20,11 +20,15 @@ public protocol NepaliDatePickerDelegate: UIPickerViewDelegate {
     /**
      A delegation method that is executed when NepaliDatePickerView is selected.
      - Parameter pickerView: A NepaliDatePickerView.
-     - Parameter didSelectNepaliDate: An optional corresponding english date of selected nepali
+     - Parameter englishYear: Corresponding english year of selected nepali
+     date in String.
+     - Parameter englishMonth: Corresponding english month of selected nepali
+     date in String.
+     - Parameter englishDay: Corresponding english day of selected nepali
      date in String.
      */
     @objc
-    func pickerView(pickerView: UIView, correspondingEnglishDate: String?)
+    func pickerView(pickerView: UIView, englishYear: Int, englishMonth: Int, englishDay: Int)
 }
 
 
@@ -145,66 +149,106 @@ extension NepaliDatePicker: UIPickerViewDelegate, UIPickerViewDataSource {
         }
         print("\(selectedYear!)-\(DateDataSource.getMonths()[selectedMonth!])-\(selectedDay!)")
         let selectedNepaliDate = "\(selectedYear!)-\(selectedMonth! + 1)-\(selectedDay!)"
+        self.BSToADConverter(year: selectedYear!, month: selectedMonth! + 1, day: selectedDay!)
         self.delegate?.pickerView(pickerView: self.nsnCalendarPickerView, selectedNepaliDate: selectedNepaliDate)
-        self.delegate?.pickerView(pickerView: self.nsnCalendarPickerView, correspondingEnglishDate: DateConverter().convertFromNepaliToEnglish(date: selectedNepaliDate))
     }
     
-    public func convertToEnglishDate(year: Int, month: Int, day: Int){
-        var difference = 0
-        
-        for year in EnglishToNepaliDateConverter.startingNepaliYear..<year {
-            for month in 1...12 {
-                difference += DateDataSource.getSource()[year]![month]
-            }
-        }
-        
-        for month in EnglishToNepaliDateConverter.startingNepaliMonth..<(month + 1) {
-            difference += DateDataSource.getSource()[self.selectedYear!]![month]
-        }
-        
-        difference += day - EnglishToNepaliDateConverter.startingNepaliDay
-        
-        print("Nepali Dates difference = \(difference)")
-        
-        var englishYear = EnglishToNepaliDateConverter.startingEnglishYear
-        var englishMonth = EnglishToNepaliDateConverter.startingEnglishMonth
-        var englishDay = EnglishToNepaliDateConverter.startingEnglishDay
+//    public func convertToEnglishDate(year: Int, month: Int, day: Int){
+//        var difference = 0
+//
+//        for year in EnglishToNepaliDateConverter.startingNepaliYear..<year {
+//            for month in 1...12 {
+//                difference += DateDataSource.getSource()[year]![month]
+//            }
+//        }
+//
+//        for month in EnglishToNepaliDateConverter.startingNepaliMonth..<(month + 1) {
+//            difference += DateDataSource.getSource()[self.selectedYear!]![month]
+//        }
+//
+//        difference += day - EnglishToNepaliDateConverter.startingNepaliDay
+//
+//        print("Nepali Dates difference = \(difference)")
+//
+//        var englishYear = EnglishToNepaliDateConverter.startingEnglishYear
+//        var englishMonth = EnglishToNepaliDateConverter.startingEnglishMonth
+//        var englishDay = EnglishToNepaliDateConverter.startingEnglishDay
+//
+//        var endDayOfMonth = 0
+//
+//        while difference != 0 {
+//            if isLeapYear(year: englishYear) {
+//                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonthOfLeapYear[englishMonth]
+//            } else {
+//                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonth[englishMonth]
+//            }
+//
+//            englishDay = englishDay + 1
+//
+//            if englishDay > endDayOfMonth {
+//                englishMonth = englishMonth + 1
+//                englishDay = 1
+//
+//                if englishMonth > 12 {
+//                    englishYear = englishYear + 1
+//                    englishMonth = 1
+//                }
+//            }
+//
+//            difference = difference - 1
+//        }
+//
+//        print("\(englishYear) - \(englishMonth) - \(englishDay)")
+//
+//        //self.delegate?.pickerView(pickerView: self.nsnCalendarPickerView, correspondingEnglishDate: "\(englishYear)-\(englishMonth)-\(englishDay)")
+//
+//    }
+    
+    func BSToADConverter(year: Int, month: Int, day: Int) {
+        var engYear = 1943
+        var engMonth = 4
+        var engDay = 14
         
         var endDayOfMonth = 0
         
-        while difference != 0 {
-            if isLeapYear(year: englishYear) {
-                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonthOfLeapYear[englishMonth]
-            } else {
-                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonth[englishMonth]
+        var totalNepDaysCount = 0
+    
+        for i in EnglishToNepaliDateConverter.startingNepaliYear..<year {
+            for j in 1...12 {
+                totalNepDaysCount = totalNepDaysCount + DateDataSource.getSource()[i]![j]
             }
-            
-            englishDay = englishDay + 1
-            
-            if englishDay > endDayOfMonth {
-                englishMonth = englishMonth + 1
-                englishDay = 1
-                
-                if englishMonth > 12 {
-                    englishYear = englishYear + 1
-                    englishMonth = 1
-                }
-            }
-            
-            difference = difference - 1
         }
         
-        self.delegate?.pickerView(pickerView: self.nsnCalendarPickerView, correspondingEnglishDate: "\(englishYear)-\(englishMonth)-\(englishDay)")
+        for j in EnglishToNepaliDateConverter.startingNepaliMonth..<month {
+            totalNepDaysCount = totalNepDaysCount + DateDataSource.getSource()[year]![j]
+        }
         
+        totalNepDaysCount = totalNepDaysCount + (day - EnglishToNepaliDateConverter.startingNepaliDay)
+        
+        while totalNepDaysCount != 0 {
+            if (isLeapYear(year: engYear)) {
+                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonthOfLeapYear[engMonth]
+            } else {
+                endDayOfMonth = EnglishToNepaliDateConverter.daysInMonth[engMonth]
+            }
+            engDay = engDay + 1
+            if engDay > endDayOfMonth {
+                engMonth = engMonth + 1
+                engDay = 1
+                if engMonth > 12 {
+                    engYear = engYear + 1
+                    engMonth = 1
+                }
+            }
+            totalNepDaysCount = totalNepDaysCount - 1
+        }
+        self.delegate?.pickerView(pickerView: self.nsnCalendarPickerView, englishYear: engYear, englishMonth: engMonth, englishDay: engDay)
     }
     
     
     func isLeapYear(year: Int) -> Bool {
-        if year % 100 == 0 {
-            return year % 400 == 0
-        } else {
-            return year % 4 == 0
-        }
+        let isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+        return isLeapYear
     }
     
     func convertToNepaliDate(fromDate: Date?, toDate: Date?) {

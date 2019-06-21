@@ -103,11 +103,8 @@ public class DateConverter {
     }
     
     func isLeapYear(year: Int) -> Bool {
-        if year % 100 == 0 {
-            return year % 400 == 0
-        } else {
-            return year % 4 == 0
-        }
+        let isLeapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
+        return isLeapYear
     }
     
 }

@@ -26,13 +26,18 @@ class ViewController: UIViewController {
         self.nepaliDate.text = DateConverter().convertFromEnglishToNepali(date: DateUtils.getCurrentDateOnlyInString() + " +0000")
         
         self.englishDate.text = DateUtils.getCurrentDateOnlyInString()
-        
     }
     
     func setNepaliDatePickerView() {
         let nepaliDatePicker = NepaliDatePicker(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 216))
         nepaliDatePicker.delegate = self
         self.nepaliDatePicker.addSubview(nepaliDatePicker)
+        self.addDoneToolbar(inView: self.nepaliDatePicker)
+    }
+    
+    override func endEditing() {
+        super.endEditing()
+        self.nepaliDatePicker.isHidden = true
     }
 }
 extension ViewController: NepaliDatePickerDelegate {
@@ -40,8 +45,8 @@ extension ViewController: NepaliDatePickerDelegate {
         self.nepaliDate.text = selectedNepaliDate
     }
     
-    func pickerView(pickerView: UIView, correspondingEnglishDate: String?) {
-        self.englishDate.text = correspondingEnglishDate
+    func pickerView(pickerView: UIView, englishYear: Int, englishMonth: Int, englishDay: Int) {
+        self.englishDate.text = "\(englishYear)-\(englishMonth)-\(englishDay)"
     }
     
 }

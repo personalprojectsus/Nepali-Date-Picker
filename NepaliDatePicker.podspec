@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NepaliDatePicker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'NepaliDatePicker is the pickerview that allows users to select date in B.S.'
 
 # This description is used to generate tags and improve search results.
