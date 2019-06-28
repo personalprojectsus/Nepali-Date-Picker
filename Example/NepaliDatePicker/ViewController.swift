@@ -23,7 +23,17 @@ class ViewController: UIViewController {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
         
-        self.nepaliDate.text = DateConverter().convertFromEnglishToNepali(date: DateUtils.getCurrentDateOnlyInString() + " +0000")
+        let date = Date()
+        let calendar = Calendar.current
+        let currentEnglishYear = calendar.component(.year, from: date)
+        let currentEnglishMonth = calendar.component(.month, from: date)
+        let currentEnglishDay = calendar.component(.day, from: date)
+        
+        let currentNepaliDate = DateConverter().getNepaliDate(englishDate: DateModel(year: currentEnglishYear, month: currentEnglishMonth, day: currentEnglishDay))
+        
+        guard let year = currentNepaliDate?.year, let month = currentNepaliDate?.month, let day = currentNepaliDate?.day else {return}
+        
+        self.nepaliDate.text = "\(year) - \(month) - \(day)"
         
         self.englishDate.text = DateUtils.getCurrentDateOnlyInString()
     }

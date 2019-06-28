@@ -7,23 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01EFE770FE8386908ABC7F7361F0836E /* NepaliDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C97DAD6F762A4169E5AF909E8865F3 /* NepaliDatePicker.swift */; };
-		17BB46AD6E316E595C9767E369BFA774 /* NepaliDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F53A8E187A4C918A55A28631154505 /* NepaliDatePicker-dummy.m */; };
+		01DADF792DEAC611A07D62F571CD8539 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */; };
+		0EF66B7C85D67C30689E1C7DFE39BB18 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE827C12900B60AD8544EA32612FC3B4 /* DateConverter.swift */; };
 		2426E3AD00E5092E4E4D675978C36E74 /* Pods-NepaliDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 495CCB160ECC4957BE95EE8408FF72C7 /* Pods-NepaliDatePicker_Tests-dummy.m */; };
-		27EBC2CEDD9F5D4F428C36FDC16B03D9 /* NepaliDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 858DEBFAFDDD3429C72AC56BFBF128DC /* NepaliDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CFD67420D0997438C68C80ABA04F667 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FB3F1EA3174B40D754A5100C4CAE14 /* DateConverter.swift */; };
+		2619A12A88CF07218B327455097204E4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
+		398E8378BB51E4D141F164FECA881706 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7786A7265FEA3ED17673845200D98B /* UIViewController+Extensions.swift */; };
 		4546FC0F226359232A7ADA501CFEFA8A /* Pods-NepaliDatePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E9A25A1733D329D836967FA745C230 /* Pods-NepaliDatePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		574B10D03DFB791341B6D89C537993EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
+		4DCF53BDD6DB4899629A21CC7BE5DDFF /* NepaliDateTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88FD30C372C0626AA8CAC3C4EE5F600 /* NepaliDateTranslator.swift */; };
+		58945781177CD4795A3E90967622189E /* NepaliDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1147E8B2240D06629758DA7F3463632 /* NepaliDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3EB84ED2627850A391E287A21FAC19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
+		8199E1826395582AC812D908F905CB89 /* EnglishToNepaliDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDB639093FE646C5CF7813FB37B1029 /* EnglishToNepaliDateConverter.swift */; };
 		8365E19E87E0F62F9228C13B6C76144C /* Pods-NepaliDatePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111F05CAFC1B66FF18123CC4F18C1DB8 /* Pods-NepaliDatePicker_Example-dummy.m */; };
-		8C93094522BCA46D00B07E9B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93094422BCA46D00B07E9B /* UIViewController+Extensions.swift */; };
-		8C93094722BCA52700B07E9B /* NepaliDatePickerToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C93094622BCA52700B07E9B /* NepaliDatePickerToolbar.swift */; };
-		8D1C4DE20914483F0B5E425E056CAC3A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */; };
+		A46D1C0066FA66FC68671C1F290E42AC /* NepaliDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4194C35398B5F9F3A44A3BC9BAB0D6E0 /* NepaliDatePicker-dummy.m */; };
 		B4AD60C625D0957FA9D8AA058E011F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
-		B73FADC26882AC597EB0A8DE77451546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */; };
-		BCC7C871D3483CC7DA3228895A0A994C /* EnglishToNepaliDateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272DB66D59EBE8616834806BEFBD70A8 /* EnglishToNepaliDateConverter.swift */; };
+		B4E714B2265F1562950FB6F3C9040382 /* NepaliDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FC962C2543B6281EF9B3451FFEA126 /* NepaliDatePicker.swift */; };
 		C20AA84BC79EB9367ED8FC5E51C92142 /* Pods-NepaliDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E54269A0A8B513950274D3540E31D450 /* Pods-NepaliDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF0C8E70D37907FABE5440450F2090C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */; };
-		F0A709F9F26DE95CA0FA1712A383D7AA /* DateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D0BF812ED35CB540BB6DDFC0984697 /* DateDataSource.swift */; };
+		D6ED20301E0129235D99A090ABCB1D7B /* NepaliDatePickerToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2415C1533B6EB4719F125F23881885 /* NepaliDatePickerToolbar.swift */; };
+		EAE8F1D6DDBF505AC4C287881B9AA69D /* DateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12ECBA0E155A516B9A2E3B4CCEC2106 /* DateDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,56 +47,47 @@
 /* Begin PBXFileReference section */
 		0096DBFB416B00309B6E81BA342F354F /* Pods-NepaliDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		03C83843160D4FDE44855F9FBA70DB2D /* Pods-NepaliDatePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliDatePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		06F62F1345E452DBEABAA319FAD23DCC /* Pods_NepaliDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NepaliDatePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F62F1345E452DBEABAA319FAD23DCC /* Pods_NepaliDatePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NepaliDatePicker_Example.framework; path = "Pods-NepaliDatePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2415C1533B6EB4719F125F23881885 /* NepaliDatePickerToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NepaliDatePickerToolbar.swift; path = NepaliDatePicker/Classes/NepaliDatePickerToolbar.swift; sourceTree = "<group>"; };
 		111F05CAFC1B66FF18123CC4F18C1DB8 /* Pods-NepaliDatePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NepaliDatePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		16C9165396F68F9E7C63D6E10208ACD0 /* NepaliDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NepaliDatePicker.xcconfig; sourceTree = "<group>"; };
 		253CA9E3D6B0444B029D7BD68D11E5C3 /* Pods-NepaliDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NepaliDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		272DB66D59EBE8616834806BEFBD70A8 /* EnglishToNepaliDateConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnglishToNepaliDateConverter.swift; path = NepaliDatePicker/Classes/EnglishToNepaliDateConverter.swift; sourceTree = "<group>"; };
-		2DCEB7746890847015E05203064E0ABE /* NepaliDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NepaliDatePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2E0051F9BC7D1DD54F76560ED83C54D4 /* NepaliDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NepaliDatePicker-Info.plist"; sourceTree = "<group>"; };
+		25B379391D44694992633DF4D4A131E0 /* NepaliDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		2BEEC3797D46BCCC0BC12CEA71BFD4CD /* NepaliDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NepaliDatePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		32EE5B53538D63F964E69D0A82EA3088 /* Pods-NepaliDatePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NepaliDatePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		37C5B43F0E042092CC7B0557C20750D8 /* Pods-NepaliDatePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NepaliDatePicker_Example.modulemap"; sourceTree = "<group>"; };
-		3B5D8EB6C526997371D36559D65091E5 /* NepaliDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NepaliDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D8EB6C526997371D36559D65091E5 /* NepaliDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NepaliDatePicker.framework; path = NepaliDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4194C35398B5F9F3A44A3BC9BAB0D6E0 /* NepaliDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NepaliDatePicker-dummy.m"; sourceTree = "<group>"; };
+		41AB6AB51692840F684F8F6E41A7FAF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		495CCB160ECC4957BE95EE8408FF72C7 /* Pods-NepaliDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NepaliDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
-		4C299AD6A9A835C1FF257AB335B1EC75 /* Pods_NepaliDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NepaliDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C299AD6A9A835C1FF257AB335B1EC75 /* Pods_NepaliDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NepaliDatePicker_Tests.framework; path = "Pods-NepaliDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D125995A801431CF9A59814D005AE33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		52D890BC086331CFA5853025C62B1CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5463EDB7D7C34B483552ABC921A26BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
-		54C97DAD6F762A4169E5AF909E8865F3 /* NepaliDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NepaliDatePicker.swift; path = NepaliDatePicker/Classes/NepaliDatePicker.swift; sourceTree = "<group>"; };
 		56E5CB78A6961EF465A4FDBADC3E941D /* Pods-NepaliDatePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliDatePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5B31A15AEF545E8EBA9DB87FB9D5747D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		72DB14257077E8B79642DB452A2F8C9A /* NepaliDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		5ED0EE35747C268B95CA935B94382466 /* NepaliDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NepaliDatePicker.modulemap; sourceTree = "<group>"; };
 		74D80DBF7A5E4CF3BA76D18574DADAAC /* Pods-NepaliDatePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NepaliDatePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		764A6AEE334C7EC323ADEFB088E65BA2 /* NepaliDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NepaliDatePicker.xcconfig; sourceTree = "<group>"; };
-		799B9DB6AC5BBFDFEC9E8AD69B8E8C0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		81D503C86B3FCF89C57EEA1C2EDACEEA /* Pods-NepaliDatePicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliDatePicker_Tests-Info.plist"; sourceTree = "<group>"; };
-		858DEBFAFDDD3429C72AC56BFBF128DC /* NepaliDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliDatePicker-umbrella.h"; sourceTree = "<group>"; };
-		8C93094422BCA46D00B07E9B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		8C93094622BCA52700B07E9B /* NepaliDatePickerToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliDatePickerToolbar.swift; sourceTree = "<group>"; };
 		8FB741E74D3AAEE4E74402FF89977F28 /* Pods-NepaliDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FC962C2543B6281EF9B3451FFEA126 /* NepaliDatePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NepaliDatePicker.swift; path = NepaliDatePicker/Classes/NepaliDatePicker.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1147E8B2240D06629758DA7F3463632 /* NepaliDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NepaliDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		A12ECBA0E155A516B9A2E3B4CCEC2106 /* DateDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateDataSource.swift; path = NepaliDatePicker/Classes/DateDataSource.swift; sourceTree = "<group>"; };
 		A7E9A25A1733D329D836967FA745C230 /* Pods-NepaliDatePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NepaliDatePicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		C5D0BF812ED35CB540BB6DDFC0984697 /* DateDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateDataSource.swift; path = NepaliDatePicker/Classes/DateDataSource.swift; sourceTree = "<group>"; };
+		BE827C12900B60AD8544EA32612FC3B4 /* DateConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateConverter.swift; path = NepaliDatePicker/Classes/DateConverter.swift; sourceTree = "<group>"; };
+		BF7786A7265FEA3ED17673845200D98B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "NepaliDatePicker/Classes/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		BFDB639093FE646C5CF7813FB37B1029 /* EnglishToNepaliDateConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnglishToNepaliDateConverter.swift; path = NepaliDatePicker/Classes/EnglishToNepaliDateConverter.swift; sourceTree = "<group>"; };
 		D3DFE10754E106E0752096937578773F /* Pods-NepaliDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NepaliDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
-		D5FB3F1EA3174B40D754A5100C4CAE14 /* DateConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateConverter.swift; path = NepaliDatePicker/Classes/DateConverter.swift; sourceTree = "<group>"; };
-		DBC2B2486C114BBDDAB4B89D09BF07C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DF4E576DB1BB4BFF13C5ABE755F83A87 /* NepaliDatePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NepaliDatePicker-Info.plist"; sourceTree = "<group>"; };
 		DFB533CCD43934EE61ABC4DE09AD5081 /* Pods-NepaliDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NepaliDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E54269A0A8B513950274D3540E31D450 /* Pods-NepaliDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NepaliDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F5847B87603BC12C2A281B3F8AFFBF3F /* Pods-NepaliDatePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliDatePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5F53A8E187A4C918A55A28631154505 /* NepaliDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NepaliDatePicker-dummy.m"; sourceTree = "<group>"; };
-		F662C1CAB64FCFF617B32D0EA48C1551 /* NepaliDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NepaliDatePicker.modulemap; sourceTree = "<group>"; };
+		F88FD30C372C0626AA8CAC3C4EE5F600 /* NepaliDateTranslator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NepaliDateTranslator.swift; path = NepaliDatePicker/Classes/NepaliDateTranslator.swift; sourceTree = "<group>"; };
 		FA62645AC253D30F4C34E35BD03C4E0B /* Pods-NepaliDatePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NepaliDatePicker_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		422DF14F9138C59EC376D6F3ED3CA10B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				574B10D03DFB791341B6D89C537993EB /* Foundation.framework in Frameworks */,
-				8D1C4DE20914483F0B5E425E056CAC3A /* MapKit.framework in Frameworks */,
-				B73FADC26882AC597EB0A8DE77451546 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		449DC6B4ADE59D8BFCFA21C32F97BC7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -112,6 +104,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7F1FFD9CF2769CBB919F83927BD04D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3EB84ED2627850A391E287A21FAC19 /* Foundation.framework in Frameworks */,
+				2619A12A88CF07218B327455097204E4 /* MapKit.framework in Frameworks */,
+				01DADF792DEAC611A07D62F571CD8539 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -121,22 +123,6 @@
 				AC90E5EBC833FCBC57C4D2FD1986197C /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		352FA6D4CF6DF58E8E0A2DCFB65CDAEF /* NepaliDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				8C93094622BCA52700B07E9B /* NepaliDatePickerToolbar.swift */,
-				8C93094422BCA46D00B07E9B /* UIViewController+Extensions.swift */,
-				D5FB3F1EA3174B40D754A5100C4CAE14 /* DateConverter.swift */,
-				C5D0BF812ED35CB540BB6DDFC0984697 /* DateDataSource.swift */,
-				272DB66D59EBE8616834806BEFBD70A8 /* EnglishToNepaliDateConverter.swift */,
-				54C97DAD6F762A4169E5AF909E8865F3 /* NepaliDatePicker.swift */,
-				D5A01BA1E93BA6DCF2064DD3C58BC8D6 /* Pod */,
-				AC0FB4D53D5B9E2CD2337E26AFE82ACC /* Support Files */,
-			);
-			name = NepaliDatePicker;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		848A228EC24B6603D1C546E4AFB6CF89 /* Pods-NepaliDatePicker_Tests */ = {
@@ -155,18 +141,28 @@
 			path = "Target Support Files/Pods-NepaliDatePicker_Tests";
 			sourceTree = "<group>";
 		};
-		AC0FB4D53D5B9E2CD2337E26AFE82ACC /* Support Files */ = {
+		A3F28435F52C3FC8FE3BC55429C2F794 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F662C1CAB64FCFF617B32D0EA48C1551 /* NepaliDatePicker.modulemap */,
-				764A6AEE334C7EC323ADEFB088E65BA2 /* NepaliDatePicker.xcconfig */,
-				F5F53A8E187A4C918A55A28631154505 /* NepaliDatePicker-dummy.m */,
-				2E0051F9BC7D1DD54F76560ED83C54D4 /* NepaliDatePicker-Info.plist */,
-				72DB14257077E8B79642DB452A2F8C9A /* NepaliDatePicker-prefix.pch */,
-				858DEBFAFDDD3429C72AC56BFBF128DC /* NepaliDatePicker-umbrella.h */,
+				5ED0EE35747C268B95CA935B94382466 /* NepaliDatePicker.modulemap */,
+				16C9165396F68F9E7C63D6E10208ACD0 /* NepaliDatePicker.xcconfig */,
+				4194C35398B5F9F3A44A3BC9BAB0D6E0 /* NepaliDatePicker-dummy.m */,
+				DF4E576DB1BB4BFF13C5ABE755F83A87 /* NepaliDatePicker-Info.plist */,
+				25B379391D44694992633DF4D4A131E0 /* NepaliDatePicker-prefix.pch */,
+				A1147E8B2240D06629758DA7F3463632 /* NepaliDatePicker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NepaliDatePicker";
+			sourceTree = "<group>";
+		};
+		A592367AE380D023FC4903203958FBB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4D125995A801431CF9A59814D005AE33 /* LICENSE */,
+				2BEEC3797D46BCCC0BC12CEA71BFD4CD /* NepaliDatePicker.podspec */,
+				41AB6AB51692840F684F8F6E41A7FAF3 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		AC90E5EBC833FCBC57C4D2FD1986197C /* iOS */ = {
@@ -205,11 +201,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C688BED674E7FDBF806D4E91F08BD735 /* NepaliDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				BE827C12900B60AD8544EA32612FC3B4 /* DateConverter.swift */,
+				A12ECBA0E155A516B9A2E3B4CCEC2106 /* DateDataSource.swift */,
+				BFDB639093FE646C5CF7813FB37B1029 /* EnglishToNepaliDateConverter.swift */,
+				98FC962C2543B6281EF9B3451FFEA126 /* NepaliDatePicker.swift */,
+				0B2415C1533B6EB4719F125F23881885 /* NepaliDatePickerToolbar.swift */,
+				F88FD30C372C0626AA8CAC3C4EE5F600 /* NepaliDateTranslator.swift */,
+				BF7786A7265FEA3ED17673845200D98B /* UIViewController+Extensions.swift */,
+				A592367AE380D023FC4903203958FBB2 /* Pod */,
+				A3F28435F52C3FC8FE3BC55429C2F794 /* Support Files */,
+			);
+			name = NepaliDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DAB070E48F5776A0DEF0CEA982795EB7 /* Development Pods */,
+				E56CB2CA062BF6984055E735553967D0 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				D38FED54B7BBCF1A30C671FAE0DC1D33 /* Products */,
 				B81D85EAE70AE5EB4A2ECA36C99381B1 /* Targets Support Files */,
@@ -226,20 +239,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5A01BA1E93BA6DCF2064DD3C58BC8D6 /* Pod */ = {
+		E56CB2CA062BF6984055E735553967D0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DBC2B2486C114BBDDAB4B89D09BF07C6 /* LICENSE */,
-				2DCEB7746890847015E05203064E0ABE /* NepaliDatePicker.podspec */,
-				799B9DB6AC5BBFDFEC9E8AD69B8E8C0A /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DAB070E48F5776A0DEF0CEA982795EB7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				352FA6D4CF6DF58E8E0A2DCFB65CDAEF /* NepaliDatePicker */,
+				C688BED674E7FDBF806D4E91F08BD735 /* NepaliDatePicker */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -247,19 +250,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CB0597694B2A94A062FBB7F3A65FAB7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27EBC2CEDD9F5D4F428C36FDC16B03D9 /* NepaliDatePicker-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1596F76B474DC4ED3CC5117E7C77164F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4546FC0F226359232A7ADA501CFEFA8A /* Pods-NepaliDatePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6DFF893506A7DA66D871C9382630C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58945781177CD4795A3E90967622189E /* NepaliDatePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +317,12 @@
 		};
 		EF362098B21F194FF021B20F4CEF74D1 /* NepaliDatePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 879B95A69DE5DC986E36AA43E4FD1F45 /* Build configuration list for PBXNativeTarget "NepaliDatePicker" */;
+			buildConfigurationList = 43ED542BE23865C8B9ABA1D757936E10 /* Build configuration list for PBXNativeTarget "NepaliDatePicker" */;
 			buildPhases = (
-				0CB0597694B2A94A062FBB7F3A65FAB7 /* Headers */,
-				89F4A6FADA37EE0A5D9DA64F32618504 /* Sources */,
-				422DF14F9138C59EC376D6F3ED3CA10B /* Frameworks */,
-				733AAA2997A0A1CA6168D46AA1D4BCC5 /* Resources */,
+				6A6DFF893506A7DA66D871C9382630C9 /* Headers */,
+				9122CFE6C68FC25BB212ABFE07B9C0BF /* Sources */,
+				D7F1FFD9CF2769CBB919F83927BD04D7 /* Frameworks */,
+				EC059F43082349769693C8DE3EA46AD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -338,11 +341,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					EF362098B21F194FF021B20F4CEF74D1 = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,13 +362,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		733AAA2997A0A1CA6168D46AA1D4BCC5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D084949372C8ED973F59B4B67B038C40 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,6 +370,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D7179105791FD9C22BACB6F9BA4954E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC059F43082349769693C8DE3EA46AD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,17 +394,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89F4A6FADA37EE0A5D9DA64F32618504 /* Sources */ = {
+		9122CFE6C68FC25BB212ABFE07B9C0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C93094722BCA52700B07E9B /* NepaliDatePickerToolbar.swift in Sources */,
-				3CFD67420D0997438C68C80ABA04F667 /* DateConverter.swift in Sources */,
-				F0A709F9F26DE95CA0FA1712A383D7AA /* DateDataSource.swift in Sources */,
-				8C93094522BCA46D00B07E9B /* UIViewController+Extensions.swift in Sources */,
-				BCC7C871D3483CC7DA3228895A0A994C /* EnglishToNepaliDateConverter.swift in Sources */,
-				17BB46AD6E316E595C9767E369BFA774 /* NepaliDatePicker-dummy.m in Sources */,
-				01EFE770FE8386908ABC7F7361F0836E /* NepaliDatePicker.swift in Sources */,
+				0EF66B7C85D67C30689E1C7DFE39BB18 /* DateConverter.swift in Sources */,
+				EAE8F1D6DDBF505AC4C287881B9AA69D /* DateDataSource.swift in Sources */,
+				8199E1826395582AC812D908F905CB89 /* EnglishToNepaliDateConverter.swift in Sources */,
+				A46D1C0066FA66FC68671C1F290E42AC /* NepaliDatePicker-dummy.m in Sources */,
+				B4E714B2265F1562950FB6F3C9040382 /* NepaliDatePicker.swift in Sources */,
+				D6ED20301E0129235D99A090ABCB1D7B /* NepaliDatePickerToolbar.swift in Sources */,
+				4DCF53BDD6DB4899629A21CC7BE5DDFF /* NepaliDateTranslator.swift in Sources */,
+				398E8378BB51E4D141F164FECA881706 /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +435,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		08366DCEEB8B6AE1A79ECB5D45FDB5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C9165396F68F9E7C63D6E10208ACD0 /* NepaliDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NepaliDatePicker/NepaliDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = NepaliDatePicker;
+				PRODUCT_NAME = NepaliDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14A989F7DC6EA98E54C900035B06C075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C9165396F68F9E7C63D6E10208ACD0 /* NepaliDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NepaliDatePicker/NepaliDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker.modulemap";
+				PRODUCT_MODULE_NAME = NepaliDatePicker;
+				PRODUCT_NAME = NepaliDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		444259F9718E54D3470356E4DD236520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0096DBFB416B00309B6E81BA342F354F /* Pods-NepaliDatePicker_Tests.debug.xcconfig */;
@@ -468,38 +530,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		8E326E132B9F0D5ECF0D732A44135C4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764A6AEE334C7EC323ADEFB088E65BA2 /* NepaliDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NepaliDatePicker/NepaliDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = NepaliDatePicker;
-				PRODUCT_NAME = NepaliDatePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -554,7 +584,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -725,54 +756,23 @@
 			};
 			name = Release;
 		};
-		FF6BE45875A46CD67C0B15D0547BE042 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764A6AEE334C7EC323ADEFB088E65BA2 /* NepaliDatePicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NepaliDatePicker/NepaliDatePicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NepaliDatePicker/NepaliDatePicker.modulemap";
-				PRODUCT_MODULE_NAME = NepaliDatePicker;
-				PRODUCT_NAME = NepaliDatePicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		43ED542BE23865C8B9ABA1D757936E10 /* Build configuration list for PBXNativeTarget "NepaliDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14A989F7DC6EA98E54C900035B06C075 /* Debug */,
+				08366DCEEB8B6AE1A79ECB5D45FDB5AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
 				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		879B95A69DE5DC986E36AA43E4FD1F45 /* Build configuration list for PBXNativeTarget "NepaliDatePicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF6BE45875A46CD67C0B15D0547BE042 /* Debug */,
-				8E326E132B9F0D5ECF0D732A44135C4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
