@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NepaliDatePicker'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'NepaliDatePicker is the pickerview that allows users to select date in B.S.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Nepali Date Picker is the simple pickerview that allows users to pick date in ne
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nabin Shrestha' => 'nabs107@gmail.com' }
-  s.source           = { :git => 'https://github.com/personalprojectsus/Nepali-Date-Picker.git', :tag => "1.0.0" }
+  s.source           = { :git => 'https://github.com/personalprojectsus/Nepali-Date-Picker.git', :tag => "1.0.2" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
